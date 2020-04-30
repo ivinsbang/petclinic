@@ -32,7 +32,6 @@ spec:
           requests:
             cpu: '0.2'
             memory: '200Mi'
-        restartPolicy: OnFailure
         ports:
         - containerPort: 8080
       imagePullSecrets:
